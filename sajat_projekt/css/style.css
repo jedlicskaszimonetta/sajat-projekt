@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+main {
+    font-family: "Science Gothic", sans-serif;
+}
+
+nav a, a {
+    text-decoration: none;
+}
+
+nav a {
+    color: #000;
+}
+
+nav a:hover {
+    color: #06a900d6;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, .70), rgba(0, 0, 0, 0.70)) center/cover, url('../img/hero-section-bg.webp');
+}
+
+.breadcrumbs {
+    list-style: none;
+}
+
+.breadcrumbs li {
+    display: inline-block;
+    color: #01c401;
+}
+
+.breadcrumbs a:hover {
+    color: #f90404fb;
+}
+
+.faq-answer {
+    display: none;
+}
+
+.faq-card.is-open .faq-answer {
+    display: flex;
+}
+
+.bg-microbe {
+    background: linear-gradient(rgba(0, 0, 0, .60), rgba(0, 0, 0, 0.60)) center/cover, url('../img/bakterium-hatter.webp')
+}
+
+.uveitis-img {
+    background-image: linear-gradient(to bottom, #61000076, #850101c4);
+}
+
+.uveitis-img img, .uveitis-img, .pikkelysomor-img, .faq-card {
+    border-radius: 10px;
+}
+
+.pikkelysomor-img {
+    background-image: linear-gradient(180deg, #6d000076, #ffffffac, #c91a1a94);
+}
+
+footer {
+    font-family: "Shantell Sans", cursive;
+}
