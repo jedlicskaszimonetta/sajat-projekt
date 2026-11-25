@@ -1,17 +1,17 @@
 <urlset xmlns="https://sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://www.jpsaimmungetegseg.hu/</loc>
-        <lastmod>2026-11-22</lastmod>
+        <lastmod>2026-11-25</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.jpsaimmungetegseg.hu/gyik</loc>
-        <lastmod>2026-11-22</lastmod>
+        <lastmod>2026-11-24</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.jpsaimmungetegseg.hu/idegrendszeri-hatasok</loc>
-        <lastmod>2026-11-21</lastmod>
+        <lastmod>2026-11-25</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -21,12 +21,12 @@
     </url>
     <url>
         <loc>https://www.jpsaimmungetegseg.hu/pikkelysomor</loc>
-        <lastmod>2026-11-22</lastmod>
+        <lastmod>2026-11-25</lastmod>
         <priority>0.6</priority>
     </url>
     <url>
         <loc>https://www.jpsaimmungetegseg.hu/uveitis</loc>
-        <lastmod>2026-11-22</lastmod>
+        <lastmod>2026-11-25</lastmod>
         <priority>0.6</priority>
     </url>
 </urlset>

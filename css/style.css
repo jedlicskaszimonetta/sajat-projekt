@@ -9,7 +9,7 @@ nav a, a {
     text-decoration: none;
 }
 
-nav a {
+nav a, .faq-title {
     color: #000;
 }
 
@@ -30,7 +30,7 @@ nav a:hover {
     color: #01c401;
 }
 
-.breadcrumbs a:hover {
+.breadcrumbs a:hover, .faq-active {
     color: #f90404fb;
 }
 
@@ -38,8 +38,24 @@ nav a:hover {
     display: none;
 }
 
+.faq-btn {
+    color: #007f00;
+}
+
 .faq-card.is-open .faq-answer {
     display: flex;
+    animation: faqFadeIn 0.25s ease forwards;
+}
+
+@keyframes faqFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .bg-microbe {
@@ -47,7 +63,7 @@ nav a:hover {
 }
 
 .uveitis-img {
-    background-image: linear-gradient(to bottom, #61000076, #850101c4);
+    background-image: linear-gradient(to bottom, #60000076, #950000c4);
 }
 
 .uveitis-img img, .uveitis-img, .pikkelysomor-img, .faq-card {
