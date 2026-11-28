@@ -1,0 +1,15 @@
+@media (max-width: 1199px) {
+    body {
+        max-width: 1199px;
+        padding: 12px;
+    }
+
+    .almenuk {
+        flex-wrap: wrap;
+    }
+
+    .last-answer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
